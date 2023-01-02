@@ -1,0 +1,23 @@
+body{
+    background: #141414;
+    width: 1680px;
+}
+p{
+    visibility: hidden;
+}
+.card{
+    background: #141414;
+    border:0;
+    margin: 15px 0px 0px 80px;
+}
+span{
+    color: black; 
+    font-size: 120px;
+    font-weight:bolder;
+    position: absolute;
+    top: 40%;
+    left: -25%;
+    -webkit-text-stroke: 1px #cacacaca;
+        
+}
+
