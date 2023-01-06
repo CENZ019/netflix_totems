@@ -1,30 +1,30 @@
-body{
-    background: #141414;
-    width: 280px;
-}
 .container-fluid{
+  background: #141414;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-auto-rows: 90px;
   gap:1em;
+  margin: 0px auto;
+  width: 280px;
 }
 p{
+     font-size:10px;
      color: #ffffff;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .card{
     background: #141414;
     border:0;
-    margin: 15px 0px 0px 80px;
-    width: 15rem;
+    margin: 15px 0px 0px 20px;
+    width: 3rem;
 }
 span{
     color: black; 
-    font-size: 120px;
+    font-size: 30px;
     font-weight:bolder;
     position: absolute;
-    top: 40%;
-    left: -25%;
+    top: 30%;
+    margin-left:-20px;
     -webkit-text-stroke: 1px #cacacaca;        
 }
 
