@@ -6,7 +6,7 @@ body{
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 160px;
   gap:0.5em;
-  margin: 10px auto;
+  margin: 15px auto;
   padding-top: 20px;
   height: 700px;
   width: 400px;
