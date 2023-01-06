@@ -1,6 +1,6 @@
 body{
     background: #141414;
-    width: 1680px;
+    width: 280px;
 }
 .container-fluid{
   display: grid;
@@ -28,9 +28,8 @@ span{
     -webkit-text-stroke: 1px #cacacaca;        
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   body{
-    /* background: red; */
     width: 1024px;
   }
   .card{
@@ -44,7 +43,7 @@ span{
     top: 40%;
     left: -10%;   
 }
-}
+} */
 
 @media screen and (max-width: 280px) {
   .container-fluid{
